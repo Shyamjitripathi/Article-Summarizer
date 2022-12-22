@@ -15,7 +15,6 @@ def clear_text():
     st.session_state["text"] = ""
     
 st.button("clear text input", on_click=clear_text)
-st.write(input)
 output_size = st.radio(label = "What kind of output do you want?", 
                     options= ["To-The-Point", "Concise", "Detailed"])
 
