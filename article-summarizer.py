@@ -1,7 +1,8 @@
-# Import the required libraries
-import openai
 # import os
 import streamlit as st
+# Import the required libraries
+import openai
+
 
 # Set the GPT-3 API key
 openai.api_key = st.secrets["pass"]
