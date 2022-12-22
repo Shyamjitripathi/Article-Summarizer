@@ -6,6 +6,7 @@ import openai
 
 # Set the GPT-3 API key
 openai.api_key = st.secrets["pass"]
+st.set_page_config(page_title="Article-Summarizer-App")
 
 # Read the text of the article from a file
 # with open("article.txt", "r") as f:
